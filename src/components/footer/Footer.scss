@@ -1,16 +1,18 @@
 footer {
-    position: absolute;
+
     background-color: #808080;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
+    padding: 1rem;
+    text-align: center;
+
+    z-index: 0;
     p {
         color: #FFF;
         margin: 0 ;
-        margin-right: 1200px;
+        text-align: center;
         color: black;
+        z-index: 10;
     }
   }
