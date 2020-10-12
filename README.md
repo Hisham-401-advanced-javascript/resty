@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
---- 
+---
 
 # LAB - Class 26
 
@@ -94,4 +94,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 #### UML
 
 Link to an image of the UML for your application and response to events
-![](assets/UML-class26.jpg)
+![](assets/UML-class27.jpg)
