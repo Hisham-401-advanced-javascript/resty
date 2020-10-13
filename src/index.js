@@ -5,10 +5,9 @@ import App from './App.js';
 
 class Main extends React.Component {
   render() {
-    return <App/>;
+    return <App />;
   }
 }
-
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(<Main />, rootElement);
