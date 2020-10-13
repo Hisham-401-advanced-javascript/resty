@@ -1,95 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# resty
 
-## Available Scripts
+## Author: 
+Hisham Al-Naji
 
-In the project directory, you can run:
+## Version: 
+1.1.0 
 
-### `npm start`
+## Overview
+Our application will be an API testing tool that can be run in any browser, allowing a user to easily interact with APIs in a familiar interface.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+- Operating system: Mac OS, Windows, Linux
+- Git
+  Follow the instruction in the links below to install git in your machine
+  - [Windows](https://git-scm.com/download/win)
+  - [Mac OS](https://git-scm.com/download/mac)
+  - [Linux](https://git-scm.com/download/linux)
+- [Codeing Editor](https://www.wpbeginner.com/showcase/12-best-code-editors-for-mac-and-windows-for-editing-wordpress-files/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. open your terminal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Clone the repo
 
-### `npm run eject`
+`https://github.com/Hisham-401-advanced-javascript/resty`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Architecture
 
-## Learn More
+This application was build with Node.js and it includes:
+- jest: test package
+- faker: fake data generator
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# UML diagram
+![image](./assets/UML-class26.jpg)
+![image](./assets/UML-class27.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
----
-
-# LAB - Class 26
-
-## Project: Component Based UI
-
-### Author: Jennifer Chinzi
-
-### Links and Resources
-
-- tbd
-
-### Setup
-
-- tbd
-
-#### How to initialize/run your application (where applicable)
-
-- e.g. `npm start`
-
-#### Tests
-
-- n/a
-
-#### UML
-
-Link to an image of the UML for your application and response to events
-![](assets/UML-class27.jpg)
+## Change Log
+27-09-2020 9:00pm 
