@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactJson from 'react-json-view';
-import './results.scss';
+import React from "react";
+import ReactJson from "react-json-view";
+import "./results.scss";
 const Results = (props) => {
   return (
-    <div id='textarea'>
+    <div id="textarea">
       <div>Count: {props.count}</div>
       {/* Render json without using react-json-view module  */}
       {/* {

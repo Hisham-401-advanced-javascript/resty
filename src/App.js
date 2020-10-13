@@ -1,8 +1,8 @@
-import React from 'react';
-import Header from './components/header/header';
-import Main from './components/form/form';
-import Footer from './components/footer/footer';
-import Results from '/components/results/results';
+import React from "react";
+import Header from "./components/header/header";
+import Main from "./components/form/form";
+import Footer from "./components/footer/footer";
+import Results from "./components/results/results";
 
 //class App
 class App extends React.Component {
