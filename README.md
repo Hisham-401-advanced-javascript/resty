@@ -39,7 +39,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 This application was build with Node.js and it includes:
 - jest: test package
-- faker: fake data generator
 
 # UML diagram
 
