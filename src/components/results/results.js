@@ -1,10 +1,12 @@
-import React from "react";
-import ReactJson from "react-json-view";
-import "./results.scss";
+import React from 'react';
+import ReactJson from 'react-json-view';
+import './results.scss';
 const Results = (props) => {
+    
   return (
     <div id="textarea">
       <div>Count: {props.count}</div>
+      <img src="https://flevix.com/wp-content/uploads/2019/07/Curve-Loading.gif" className={`loading-${props.loading}`} alt="thank you"/>
       {/* Render json without using react-json-view module  */}
       {/* {
         <div><pre>headers:{ JSON.stringify(props.headers, null, 2) }</pre></div>
@@ -13,9 +15,13 @@ const Results = (props) => {
         <div><pre>body: { JSON.stringify(props.results, null, 2) }</pre></div>
       } */}
       {/* Render json using react-json-view module  */}
-      {<ReactJson src={props.headers} />}
+      Header:{
+        <ReactJson src={props.headers} />
+      }
 
-      {<ReactJson src={props.results} />}
+      Results:{
+        <ReactJson src={props.results} />
+      }
     </div>
   );
 };
