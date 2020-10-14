@@ -39,11 +39,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 This application was build with Node.js and it includes:
 - jest: test package
-- faker: fake data generator
 
 # UML diagram
-![image](./assets/UML-class26.jpg)
-![image](./assets/UML-class27.jpg)
+![image](./assets/UML-class28.jpg)
 
 ## Change Log
 27-09-2020 9:00pm 
