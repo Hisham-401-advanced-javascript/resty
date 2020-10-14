@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 // import { config as reactParseConfig, setReactParseDispatch } from 'react-parse';
 import App from './App.js';
 
+
 class Main extends React.Component {
   render() {
     return(
@@ -13,7 +14,6 @@ class Main extends React.Component {
     );
   }
 }
-
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(<Main />, rootElement);
