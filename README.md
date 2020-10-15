@@ -43,5 +43,5 @@ This application was build with Node.js and it includes:
 # UML diagram
 ![image](./assets/UML-class28.jpg)
 
-## Change Log
-27-09-2020 9:00pm 
+
+
