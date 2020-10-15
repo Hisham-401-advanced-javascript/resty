@@ -1,8 +1,13 @@
-import React from "react";
-import Header from "./components/header/header";
-import Main from "./components/form/form";
-import Footer from "./components/footer/footer";
-import Results from "./components/results/results";
+import React from 'react';
+import Header from './components/header/header';
+
+import Footer from './components/footer/footer';
+
+import Routes from './components/routes';
+
+// import Main from './components/form/form.js';
+
+
 
 //class App
 class App extends React.Component {
@@ -10,30 +15,29 @@ class App extends React.Component {
     super(props);
     this.state = {
       // key and value pairs
-      count: 0,
-      results: [],
       headers: [],
     };
   }
 
-  // method to be passed to form
-  handleForm = (count, results, headers) => {
-    this.setState({ count, results, headers });
-    // {count: count , results:results}
-  };
+  // // Make a spinner
+  // toggleLoading = () => {
+  //   console.log('this.state.loading: ',this.state.loading);
+  //   this.setState({ loading: !this.state.loading });
+  // }
+  // // method to be passed to form
+  // handleForm = (count, results,headers,item) => {
+  //   this.setState({count, results,headers,item});
+  //   // {count: count , results:results}
+  // }
 
   render() {
     return (
+      // I will add Header, Main, Footer
       <React.Fragment>
+        {/* <link >history</link> */}
         <Header />
-        {/* <Main /> */}
+        <Routes />
         <Footer />
-        <Main handler={this.handleForm} />
-        <Results
-          count={this.state.count}
-          results={this.state.results}
-          headers={this.state.headers}
-        />
       </React.Fragment>
     );
   }

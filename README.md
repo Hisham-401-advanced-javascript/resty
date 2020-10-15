@@ -41,6 +41,7 @@ This application was build with Node.js and it includes:
 - jest: test package
 
 # UML diagram
+![image](./assets/UML-class28.jpg)
 
-![image](./assets/UML-class27.jpg)
+
 
